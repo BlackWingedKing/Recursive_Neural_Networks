@@ -1,0 +1,17 @@
+NP 
+VP 
+PP 
+ADJP
+ADVP
+WHADVP 
+WHNP 
+WHPP 
+S 
+SBAR 
+SBARQ 
+SINV 
+SQ 
+T 
+0 
+* 
+X
