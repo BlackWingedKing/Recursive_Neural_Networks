@@ -377,8 +377,8 @@ def test():
 def main():
     model = NodeNet()
     leafmodel = LeafNet()
-    optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.5)
-    train(model,leafmodel, optimizer, 6)
+    optimizer = optim.SGD(model.parameters(), lr=0.0001, momentum=0.5)
+    train(model,leafmodel, optimizer, 20)
     # test()
 if __name__ == '__main__':
     main()
